@@ -24,4 +24,9 @@ class NJImageExtensionsTests: XCTestCase {
        XCTAssert(i == 0, "Value of i should be equal to 0")
     }
 
+    func testExampleTwo() {
+          let name = "Testing"
+          XCTAssertEqual(name, "Testing")
+    }
+
 }
